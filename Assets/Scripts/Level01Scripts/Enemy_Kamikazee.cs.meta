@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 90e340a08ba01114fb7cf0e157c4690f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - explosionSound: {fileID: 100000, guid: 25a9be865fcab8b46b8e14a043dd413e, type: 2}
+  - explosion: {fileID: 100000, guid: 25a9be865fcab8b46b8e14a043dd413e, type: 2}
+  - explosionAnimation: {fileID: 100002, guid: 57137b89e09584e3e839655c51e6f042, type: 2}
+  - deathSound: {fileID: 100000, guid: 1193a652e3210c7488b4a084eb0241a7, type: 2}
+  - deathAnimation: {fileID: 100004, guid: 9b26e1efdb8fd4d53b35c3c6b7f50cf5, type: 2}
+  - dropOnDeath1: {fileID: 100000, guid: 55bc42df7b10fa2468e02d143c077e93, type: 2}
+  - dropOnDeath2: {fileID: 100010, guid: 84fd45b02f3c36e48bc23e8d1739db6b, type: 2}
+  - dropOnDeath3: {fileID: 100006, guid: 8bf68aba695c0a84d828ad329912c309, type: 2}
+  - target: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

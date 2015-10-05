@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Gaming Algorithms - Unity Game.CSharp.Plugins", "UnityVS.Gaming Algorithms - Unity Game.CSharp.Plugins.csproj", "{45A71E61-AD8E-6486-1FA8-322578C11351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Gaming Algorithms - Unity Game.CSharp", "UnityVS.Gaming Algorithms - Unity Game.CSharp.csproj", "{A6C2013A-C3E3-5062-673A-D3F100B581B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Gaming Algorithms - Unity Game.CSharp.Editor", "UnityVS.Gaming Algorithms - Unity Game.CSharp.Editor.csproj", "{03C645CB-32CE-9883-A866-ADAECC67AB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45A71E61-AD8E-6486-1FA8-322578C11351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A71E61-AD8E-6486-1FA8-322578C11351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A71E61-AD8E-6486-1FA8-322578C11351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A71E61-AD8E-6486-1FA8-322578C11351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C2013A-C3E3-5062-673A-D3F100B581B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C2013A-C3E3-5062-673A-D3F100B581B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C2013A-C3E3-5062-673A-D3F100B581B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C2013A-C3E3-5062-673A-D3F100B581B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C645CB-32CE-9883-A866-ADAECC67AB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C645CB-32CE-9883-A866-ADAECC67AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C645CB-32CE-9883-A866-ADAECC67AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C645CB-32CE-9883-A866-ADAECC67AB01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

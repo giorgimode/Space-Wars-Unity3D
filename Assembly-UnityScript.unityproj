@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{81EC65B7-45E9-13C7-751C-736AE89421D5}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;UNITY_64;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Imported\Explosions\Scripts\EffectSequencer.js" />
+     <Compile Include="Assets\Imported\Misc\OneShotParticles.js" />
+     <Compile Include="Assets\Imported\Planet002\rotate.js" />
+     <Compile Include="Assets\Scripts\Fx\AnimationSpriteSheet.js" />
+     <Compile Include="Assets\Scripts\Fx\BrokenScreen.js" />
+     <Compile Include="Assets\Scripts\Fx\ColoredNoise.js" />
+     <Compile Include="Assets\Scripts\Fx\DeactivatorOnLowQuality.js" />
+     <Compile Include="Assets\Scripts\Fx\GlowChange.js" />
+     <Compile Include="Assets\Scripts\Fx\HeightDepthOfField.js" />
+     <Compile Include="Assets\Scripts\Fx\MobileBloom.js" />
+     <Compile Include="Assets\Scripts\Fx\MoodBox.js" />
+     <Compile Include="Assets\Scripts\Fx\MoodBoxData.js" />
+     <Compile Include="Assets\Scripts\Fx\MoodBoxManager.js" />
+     <Compile Include="Assets\Scripts\Fx\PostEffects.js" />
+     <Compile Include="Assets\Scripts\Fx\QualityManager.js" />
+     <Compile Include="Assets\Scripts\Fx\RenderFogPlane.js" />
+     <Compile Include="Assets\Scripts\Fx\ShaderDatabase.js" />
+     <Compile Include="Assets\Scripts\Fx\TextAdventureManager.js" />
+     <Compile Include="Assets\Scripts\Fx\WorldSpaceSpecular.js" />
+     <Compile Include="Assets\Scripts\GameOverGUI.js" />
+     <Compile Include="Assets\Scripts\GameWonGUI.js" />
+     <Compile Include="Assets\Scripts\Lasers\LaserTrap - Up.js" />
+     <Compile Include="Assets\Scripts\Lasers\LaserTrap.js" />
+     <Compile Include="Assets\Scripts\Modules\PlayAnimationAndBack.js" />
+     <Compile Include="Assets\Scripts\Modules\PlaySoundAndBack.js" />
+     <Compile Include="Assets\Scripts\Modules\SignalSender.js" />
+     <Compile Include="Assets\Scripts\Modules\TriggerOnPresence.js" />
+     <Compile Include="Assets\Scripts\Modules\TriggerOnTag.js" />
+     <Compile Include="Assets\Scripts\StartMenuGUI.js" />
+     <Compile Include="Assets\Scripts\StorylineGUI.js" />
+     <Compile Include="Assets\ScrollBack.js" />
+     <Compile Include="Assets\ScrollBack2.js" />
+     <Compile Include="Assets\ScrollBack3.js" />
+     <Compile Include="Assets\ScrollBack4.js" />
+     <Compile Include="Assets\ScrollText.js" />
+     <Compile Include="Assets\ScrollText2.js" />
+     <Compile Include="Assets\ScrollText3.js" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+     <None Include="Assets\Shaders\Fx\Cursor.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\Stealth\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+     <None Include="Assets\Shaders\Fx\Additive.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\Imported\SpaceUnity\Shaders\PlanetRings.shader" />
+     <None Include="Assets\Resources\HeightDepthOfField.shader" />
+     <None Include="Assets\Resources\BlurPassesForDof.shader" />
+     <None Include="Assets\Shaders\Fx\ScreenRefract.shader" />
+     <None Include="Assets\Scripts\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\Shaders\Fx\Blend.shader" />
+     <None Include="Assets\Imported\Heureka\AssetHunter\Readme.txt" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+     <None Include="Assets\Imported\GameBarCreationSystem\Shaders\UnlitAlphaWithFade.shader" />
+     <None Include="Assets\Resources\ColoredNoise.shader" />
+     <None Include="Assets\Shaders\Fx\InterlacePatternBlend.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\AngryInclude.cginc" />
+     <None Include="Assets\Resources\MobileBloom.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\Imported\SpaceUnity\Shaders\PlanetStandard.shader" />
+     <None Include="Assets\Imported\SpaceUnity\Shaders\PlanetAtmosphere.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\Shaders\Fx\LaserScope.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleBlend.shader" />
+     <None Include="Assets\Shaders\Fx\InterlacePatternAdditive.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonOrg">
+ <HintPath>D:/Files/University/AUBG class material/Semester VIII/COS 491 - Thesis/SVN repository Unity 5/lvl1/Assets/Plugins/JsonOrg.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudStorageSDK">
+ <HintPath>D:/Files/University/AUBG class material/Semester VIII/COS 491 - Thesis/SVN repository Unity 5/lvl1/Assets/Plugins/KiiCloudStorageSDK.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudUnitySDK">
+ <HintPath>D:/Files/University/AUBG class material/Semester VIII/COS 491 - Thesis/SVN repository Unity 5/lvl1/Assets/Plugins/KiiCloudUnitySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{834AC2CB-E0DF-EBDB-6A27-DB668DC908D8}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{36AC866E-7B78-D815-CA46-1A79E580AAC7}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
